@@ -13,7 +13,8 @@ ON/OFF - Hours (5 for each X) - Hours - Minutes (5 for each X) - Minutes
 
 -
 
-Usage:
+Usage:  
+
 bundle  
 ruby mengenlehreuhr.rb (outputs string for current time)  
 rspec mengenlehreuhr_spec.rb (runs the tests)  
