@@ -11,10 +11,10 @@ describe Mengenlehreuhr do
 		mt = Mengenlehreuhr.new('00:00:00')
 
 		expect(mt.on).to eq(1)
-		expect(mt.hours1).to eq(0)
-		expect(mt.hours2).to eq(0)
-		expect(mt.min1).to eq(0)
-		expect(mt.min2).to eq(0)
+		expect(mt.hours).to eq(0)
+		expect(mt.hours5).to eq(0)
+		expect(mt.min).to eq(0)
+		expect(mt.min5).to eq(0)
 
 		expect(mt.mengenlehreuhr_string).to eq('X-OOOO-OOOO-OOOOOOOOOOO-OOOO')
 	end	
