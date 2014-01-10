@@ -20,10 +20,10 @@ class Mengenlehreuhr
   end
 
   def mengenlehreuhr_string
-  	"#{to_s @on, 1}-#{to_s @hours5}-#{to_s @hours}-#{to_s @min5, 11}-#{to_s @min}"
+  	"#{num_to_xo @on, 1}-#{num_to_xo @hours5}-#{num_to_xo @hours}-#{num_to_xo @min5, 11}-#{num_to_xo @min}"
   end
 
-  def to_s(num, total = 4)
+  def num_to_xo(num, total = 4)
   	str = ''
   	num.times { str << 'X' }
   	(total - num).times {str << 'O'}
